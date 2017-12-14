@@ -2,15 +2,6 @@
  * Created by think on 2017/12/11.
  */
 //compute REM
-$(function(){
-    if(navigator.userAgent.match(/MicroMessenger/i)){
-        var weixinShareLogo = '';		
-        $('body').prepend('<div style="overflow:hidden; width:0px; height:0; margin:0 auto; position:absolute; top:-800px;">
-             <img src="'+ weixinShareLogo +'"></div>')	
-         };
-        });
-
-
 !function () {
     var desW=640,
         winW=document.documentElement.clientWidth,
