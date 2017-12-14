@@ -1,0 +1,102 @@
+html,body {
+    width: 100%;
+    overflow-x: hidden;
+    background: #F4F4F4;
+}
+html{
+    font-size: 100px;
+}
+.banner{
+    position: relative;
+    height: 3rem;
+    overflow: hidden;
+}
+.banner .wrapper{
+    top: 0;
+    left: -100%;
+    position: absolute;
+    height: 100%;
+
+}
+.banner .wrapper .slide{
+    float: left;
+    height: 100%;
+    background: rgba(0,0,0,0.1);
+
+}
+.banner .wrapper .slide img{
+   display: none;
+    width: 100%;
+    height: 100%;
+}
+.tip{
+    position: absolute;
+    bottom: .1rem;
+    width: 100%;
+    height: .26rem;
+   text-align: center;
+}
+.tip li{
+    display: inline-block;
+    margin: .03rem;
+    width: .16rem;
+    height: .16rem;
+    background: rgba(0,0,0,0.2);
+    border-radius: 50%;
+}
+.tip li.bg{
+    background: #007aff;
+}
+.text1{
+    line-height: .85rem;
+    text-align: center;
+    color: #1c90f2;
+
+    -webkit-animation: flip 3s linear 0s infinite both;
+    animation: flip 3s linear 0s infinite both;
+}
+.button ul{
+    overflow: hidden;
+    text-align: center;
+}
+.button li{
+    float: left;
+    margin-left:.5rem;
+    margin-top: .3rem;
+    padding: .3rem;
+    display: block;
+    text-align: center;
+    width: .8rem;
+    height: .8rem;
+    font-size: .2rem;
+    line-height: .4rem;
+    color: #fcf0b5;
+    border: .01rem solid #E0F2BE;
+    border-radius: 30%;
+    background: #30dd88;
+    box-shadow: .03rem .03rem .07rem rgba(0,0,0,0.4);
+
+}
+p{
+    margin: .3rem .3rem;
+    text-align: left;
+    font-size: .2rem;
+    text-indent: .4rem;
+    line-height: .4rem;
+    padding: .2rem;
+    color:#346AFF;
+}
+span{
+    color: #dd1622;
+}
+#leleR{
+    display: none;
+    /*-webkit-animation: bounceInUp 3s linear 0s  both;*/
+    /*animation: bounceInUp 3s linear 0s both;*/
+}
+#lelemamaR{
+    display: none;
+}
+#lelebabaR{
+    display: none;
+}
